@@ -1,0 +1,10 @@
+void function(int& a) {
+    a = 10;
+}
+
+int main() {
+    int b = 5;
+    function(b);
+    std::cout << b;
+    return 0;
+}
